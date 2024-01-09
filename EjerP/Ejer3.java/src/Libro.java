@@ -26,12 +26,8 @@ public class Libro extends Publicacion implements Prestable{
     }
 
     @Override
-    public void prestado() {
-        if(prestado == true){
-            System.out.println("Esta prestado");
-        }else{
-            System.out.println("No esta prestado");
-        }
+    public boolean prestado() {
+        return prestado;
         
     }
 

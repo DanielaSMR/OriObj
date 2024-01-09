@@ -4,7 +4,7 @@ public class Main {
         
         Libro libro1 = new Libro(1, "La rosa de versalles", 1998);
 
-        libro1.devolver();
+        libro1.prestado();
 
         System.out.println(libro1.toString());
 
