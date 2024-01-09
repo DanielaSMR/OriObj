@@ -1,4 +1,4 @@
-public class Main {
+public class AMain {
     public static void main(String[] args) {
         Persona tenor = new Persona();
         Gallo gallo = new Gallo();
