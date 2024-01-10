@@ -25,4 +25,9 @@ public class Refrigerados extends Comun {
         this.temperaturaR = tR;
     }
 
+    public String toString(){
+        String s = "El codigo de supervision: " + codSupervision
+                    + "La temperatura recomendada " + temperaturaR;
+        return (super.toString() + s);
+    }
 }

@@ -43,6 +43,16 @@ public class Comun {
         this.paisO = paisO;
     }
 
+
+    public String toString(){
+        String s = "La fecha de caducidad es: " + fechaC 
+                    + "El numero de lote es: " + numLote
+                    + "Fecha de envasado: " + fechaE
+                    + "Pais de origen: " + paisO;
+        return s;
+
+    }
+
     
     
     

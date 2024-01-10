@@ -15,4 +15,9 @@ public class Congelados extends Comun{
         this.temperaturaR = tR;
     }
 
+    public String toString(){
+        String s = "La temperatura recomendada: " + temperaturaR;
+        return (super.toString() + s);
+    }
+
 }

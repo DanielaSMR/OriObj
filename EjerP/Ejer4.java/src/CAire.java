@@ -46,5 +46,13 @@ public class CAire extends Congelados {
         this.vaporA = vaporA;
     }
 
-    
+    public String toString(){
+        String s = "% de Nitrogeno: " + nitrogeno
+                    + "% de Oxigeno: " + oxigeno
+                    + "% de Dioxido de Carbono: " + dioxidoC
+                    + "% de Vapor de Agua: " + vaporA;
+        return (super.toString() + s);
+    }
+
+
 }

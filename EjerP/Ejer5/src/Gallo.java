@@ -8,6 +8,6 @@ public class Gallo implements PuedeCantar{
     @Override
     public void PuedeCantar(){
         canta = true;
-        System.out.println("El gallo canta");
+        System.out.println("El gallo canta: kokoroko");
     }
 }

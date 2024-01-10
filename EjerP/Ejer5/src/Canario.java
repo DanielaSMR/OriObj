@@ -8,6 +8,6 @@ public class Canario implements PuedeCantar {
     @Override
     public void PuedeCantar(){
         canta = true;
-        System.out.println("El canario canta");
+        System.out.println("El canario canta: pio pio pio");
     }
 }

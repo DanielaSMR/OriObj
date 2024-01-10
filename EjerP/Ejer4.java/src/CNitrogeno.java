@@ -26,6 +26,11 @@ public class CNitrogeno extends Congelados{
         this.tiempoExpo = tE;
     }
 
+    public String toString(){
+        String s = "El metodo de congelado es: " + metodoCongelacion
+                    + "El tiempo de exposicion al nitrogeno(s): " + tiempoExpo;
+        return (super.toString() + s);
+    }
     
 
 }
