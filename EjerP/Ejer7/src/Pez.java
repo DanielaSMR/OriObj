@@ -23,6 +23,14 @@ public class Pez {
         this.numPeces = numPeces;
     }
 
+    //Copia
+    public Pez (Pez r) {
+        if(r != null) {
+           this.numPeces= r.numPeces;
+           this.nombre = r.nombre;
+        }
+    }
+
     public String equals (Pez m){
         if (nombre.equals(m.getNombre()) && numPeces == m.getNumPeces()){
             return "El nombre y el numeros de peces es el mismo";
