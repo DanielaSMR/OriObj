@@ -1,4 +1,4 @@
-package EjerP.Ejer9;
+package EjerP.Ejer9.src;
 
 //no
 class prueba {

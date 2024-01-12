@@ -1,4 +1,4 @@
-package EjerP.Ejer9;
+package EjerP.Ejer9.src;
 
 public class Ejer10 {
     
